@@ -180,7 +180,9 @@ header.masthead {
   background-blend-mode: screen; }
   header.masthead img {
     display: block;
-    margin: 0 auto 20px; }
+    margin: 0 auto 20px;
+    height: 300px;
+    border-radius: 50%; }
   header.masthead .intro-text .name {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
@@ -243,10 +245,6 @@ header.masthead {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 0px; } }
-
-.profile_photo {
-  height: 300px;
-  border-radius: 50%; }
 
 .portfolio-modal .modal-dialog {
   max-width: 100%;
