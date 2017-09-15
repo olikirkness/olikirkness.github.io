@@ -244,6 +244,10 @@ header.masthead {
   #portfolio .portfolio-item {
     margin: 0 0 0px; } }
 
+.profile_photo {
+  height: 300px;
+  border-radius: 50%; }
+
 .portfolio-modal .modal-dialog {
   max-width: 100%;
   min-height: 100%;
