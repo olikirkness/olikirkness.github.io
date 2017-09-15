@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "main": "index.js",
+  "authors": [
+    "olikirkness <oli@kirkness.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Scrollify": "^1.0.17"
+  }
+}

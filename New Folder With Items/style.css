@@ -1,0 +1,177 @@
+.links{
+  text-align: center;
+  margin-top: 80vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 250px;
+  font-size: 25px;
+}
+.link{
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.link:hover{
+  color: white;
+  border-bottom: 2px solid white;
+}
+.aboutMeTag{
+
+}
+
+.section1{
+  background-color: #F08A4B;
+  height: 100vh;
+}
+.image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.title{
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border: 2px solid black;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  min-width: 350px;
+}
+
+.section2{
+  background-color: #577590;
+  height: 100vh;
+
+}
+.topBtn{
+  border-bottom: 2px solid white;
+  color: white;
+  position: fixed;
+  left: 90%;
+  top: 10px;
+  cursor: pointer;
+}
+.section2Container, .section3Container{
+  opacity: 0;
+  transition: opacity 0.6s ease-in;
+  -ms-transition: opacity 0.6s ease-in;
+  -moz-transition: opacity 0.6s ease-in;
+  -webkit-transition: opacity 0.6s ease-in;
+}
+
+.section3{
+  background-color: #6494AA;
+  height: 100vh;
+}
+.section4{
+  background-color: grey;
+  height: 100vh;
+}
+.section5{
+  background-color: yellow;
+  height: 100vh;
+}
+.section6{
+  background-color: purple;
+  height: 100vh;
+}
+.section7{
+  background-color: cyan;
+  height: 100vh;
+}
+.section8{
+  background-color: pink;
+  height: 100vh;
+}
+.showDiv{
+  opacity: 1;
+  transition: opacity 0.6s ease-out;
+  -ms-transition: opacity 0.6s ease-out;
+  -moz-transition: opacity 0.6s ease-out;
+  -webkit-transition: opacity 0.6s ease-out;
+}
+.matchPlayImg{
+  /*height: 100px;*/
+  width: 100%;
+  margin-bottom: 20px;
+}
+.projectLogo{
+  margin-bottom: 20px;
+  height: 60px;
+  /*text-align: center;*/
+}
+.imgRow{
+  margin-bottom: 10px;
+}
+.container{
+  align-items: center;
+}
+.carousel-item{
+  margin-top: 20px;
+}
+.projectLinks{
+  width: 100%;
+  text-align: center;
+}
+.projectLink{
+  margin: 0 20px;
+  color: white;
+  /*transition: all 1s;*/
+  /*text-decoration: none;*/
+}
+.projectLink:hover{
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+.projectDescription{
+  color: white;
+  text-align: justify;
+  vertical-align: middle;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+}
+.projectImages{
+  vertical-align: middle;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+}
+.skill{
+  max-width: 100%;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  margin-top: 20%;
+}
+.skill_item{
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.modal{
+  width: 100%;
+  /*background-color: blue!important;*/
+}
+.modal-dialog{
+  width: 100%!important;
+  max-width: none!important;
+}
+.modal-content{
+  left: 5vw;
+  width: 90vw!important;
+}

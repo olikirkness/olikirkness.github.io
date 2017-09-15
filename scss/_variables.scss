@@ -1,0 +1,15 @@
+// Variables
+
+// Gray and Brand Colors for use across theme
+
+$theme-primary: #223843;
+$theme-success: #ED6A5A;
+// $background-gradient: linear-gradient(135deg, #CCDBDC 0%, #80CED7 100%);
+$background-gradient: linear-gradient(135deg, #37ecba 0%, #72afd3 100%);
+
+$gray-base: #000;
+$gray-darker: lighten($gray-base, 13.5%);
+$gray-dark: lighten($gray-base, 20%);
+$gray: lighten($gray-base, 33.5%);
+$gray-light: lighten($gray-base, 46.7%);
+$gray-lighter: lighten($gray-base, 93.5%);
