@@ -206,6 +206,9 @@ header.masthead {
   right: 0;
   margin: 0 0 15px;
   margin-top: 20px !important; }
+  #portfolio .portfolio-item h6, #portfolio .portfolio-item p {
+    text-align: center;
+    color: white; }
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
@@ -233,8 +236,8 @@ header.masthead {
         text-align: center;
         color: white; }
         #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-          margin-top: -12px;
-          margin-bottom: 12px; }
+          margin-top: -4%;
+          margin-bottom: 15px; }
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
           margin: 0; }
